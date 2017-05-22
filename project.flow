@@ -1,0 +1,25 @@
+{
+
+  project : {
+    name : 'luxe.tiles',
+    version : '1.0.0',
+    author : 'luxeengine',
+
+    app : {
+      name : 'luxe_test_tiles',
+      package : 'com.luxeengine.testtiles'
+    },
+
+    build : {
+      dependencies : {
+        luxe : '*',
+      }
+    },
+
+    files : {
+      assets : 'assets/'
+    }
+
+  }
+
+}
